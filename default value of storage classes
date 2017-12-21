@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+ 
+ int d;
+ void main()
+ {
+     auto int a;
+     printf("value of a : %d ",a);
+     static int b;
+     printf("value of b : %d ",b);
+     register int c;
+      printf("value of c : %d ",c);
+      printf("value of d : %d ",d);
+ }   
+     
+  
