@@ -1,0 +1,17 @@
+#include<stdio.h>
+// GLOBAL VARIABLES
+int A,B;
+#define DEF 1
+
+ 
+int main()
+{
+ int PRODUCT; //LOCAL VARIABLE
+    A=5;
+    B=12;
+    const int C=3;
+    PRODUCT = A*B*C;
+    printf("answer is : %d  ",PRODUCT);
+    printf( "Value of X  is %d\n", (PRODUCT == 180) ? 20: 30 );
+    printf("value of DEF is  : %d ",DEF);
+}
