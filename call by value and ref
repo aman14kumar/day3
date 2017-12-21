@@ -1,0 +1,31 @@
+#include<stdio.h>
+void callbyvalue(int n)
+{
+    n=n+10;
+    printf("\nresult : %d",n);
+    
+}
+int main()
+{
+    int n=10;
+       printf("\nresult : %d",n);
+      callbyvalue(n);
+      return 0;
+    
+}
+#include<stdio.h>
+void callbyreference(int *n)
+{
+    *n=*n+5;
+    printf("\nresult : %d",*n);
+    
+}
+int main()
+{
+    int n=10;
+       printf("\nresult : %d",n);
+      callbyreference(&n);
+      return 0;
+    
+}
+
