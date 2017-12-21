@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<string.h>
+char* abc();
+char* bbc();
+void main()
+
+{
+    printf("\nmain executed");
+    printf("\nString passed from abc : %s",abc());
+
+}
+char* abc()
+{
+    char c[10];
+    printf("\nAbc executed ");
+    printf("\nString passed from bbc : %s",bbc());
+    return "aman";
+}
+char* bbc()
+{
+    printf("\nbbc executed");
+   return "hii"; 
+}
+
+
