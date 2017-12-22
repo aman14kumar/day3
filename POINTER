@@ -1,0 +1,9 @@
+int main(){  
+int number=30;        
+int *p;//pointer to int      
+p=&number;//stores the address of number variable        
+printf("Address of p variable is %u \n",p);        
+p=p+5;   //adding 5 to pointer variable    
+printf("After adding 5: Address of p variable is %u \n",p);       
+return 0;  
+}   
